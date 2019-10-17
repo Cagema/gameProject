@@ -17,10 +17,10 @@ public class GantzScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.deltaTime > nextChar)
+        if (Time.time > nextChar)
         {
-            Instantiate(newCharacter, new Vector3(Random.Range(0, 3), Random.Range(0, 3), Random.Range(0, 3)), Quaternion.identity);
-            nextChar = Time.deltaTime + delay;
+            Instantiate(newCharacter, new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), Random.Range(-5f, 5f)), Quaternion.identity);
+            nextChar = Time.time + delay;
         }
     }
 }

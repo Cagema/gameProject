@@ -399,6 +399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62533635685dda0429ac513f2d48f7aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0.5
+  delay: 0.3
   newCharacter: {fileID: 7643040723070519882, guid: 6e473c01dafd676449ee8f451f74942e,
     type: 3}

@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 588921317}
   - component: {fileID: 588921316}
   - component: {fileID: 588921315}
+  - component: {fileID: 588921319}
   m_Layer: 0
   m_Name: Gantz
   m_TagString: Untagged
@@ -386,3 +387,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &588921319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588921314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62533635685dda0429ac513f2d48f7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.5
+  newCharacter: {fileID: 7643040723070519882, guid: 6e473c01dafd676449ee8f451f74942e,
+    type: 3}
